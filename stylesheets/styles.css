@@ -1,0 +1,38 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url('../background.jpg');
+    background-size: cover;
+    background-position: center;
+    font-family: "Courier New", sans-serif;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+h1 {
+    font-size: 3em;
+    margin: 0 0 10px;
+}
+
+.time {
+    font-size: 2em;
+    margin: 0 0 5px;
+}
+
+.timezone {
+    font-size: 1em;
+    margin: 0;
+}
+
+.year{
+    font-size: 2em;
+    margin: 0 0 5px;
+}
